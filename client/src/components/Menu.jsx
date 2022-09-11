@@ -163,6 +163,10 @@ const Menu = ({ darkMode, setDarkMode }) => {
                     <HelpOutlineOutlinedIcon />
                     Help
                 </Item>
+                <Item>
+                    <HelpOutlineOutlinedIcon />
+                    Help
+                </Item>
                 <Item onClick={() => setDarkMode(!darkMode)}>
                     <SettingsBrightnessOutlinedIcon />
                     Mode
