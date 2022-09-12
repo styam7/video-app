@@ -35,6 +35,7 @@ const Search = styled.div`
 `;
 
 const Input = styled.input`
+    width: 100%;
     border: none;
     background-color: transparent;
     outline: none;
