@@ -6,6 +6,7 @@ import ReplyOutlinedIcon from "@mui/icons-material/ReplyOutlined";
 import AddTaskOutlinedIcon from "@mui/icons-material/AddTaskOutlined";
 import thumbnail from '../img/thumbnail.jpg'
 import Card from '../components/Card';
+import Comments from '../components/Comments';
 
 const Container = styled.div`
     display: flex;
@@ -157,6 +158,8 @@ const Video = () => {
           </ChannelInfo>
           <Subscribe>SUBSCRIBE</Subscribe>
         </Channel>
+        <Hr />
+        <Comments />
       </Content>
       <Recommendation>
         <Card />
